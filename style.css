@@ -1,0 +1,90 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+:root {
+  --background-dark:#990011FF;
+  --black: #000;
+}
+body{
+  --background-dark:#990011FF;
+}
+
+#heading{
+  text-align: center;
+}
+#container{
+  display:block;
+  background-color:var(--background-dark) ;
+}
+.container {
+  width: 300px;
+  margin: auto auto;
+}
+
+label,
+input {
+  display: block;
+  margin-top: 0.5rem;
+  width: 70%;
+  text-align: center;
+}
+label {
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+input{
+  margin-left: 2rem;
+}
+#checkButton{
+  text-align: center;
+  margin-top:1rem;
+}
+#checkButton {
+  margin: 0.5rem auto;
+  display: block;
+}
+
+#checkButton {
+  
+  border: 2px solid var(--black);
+  color: var(--black);
+  padding: 0.4rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: var(--black);
+  margin: auto;
+  display: block;
+  margin-top:1rem;
+}
+
+#foot{
+    background-color:#990011FF;
+    margin: auto;
+    text-align: center;
+}
+.fa-linkedin {
+
+    color:white;
+    margin: auto;
+}
+
+.fa-github{
+    
+    color: white;
+    margin: auto;
+}
+
+.fa-instagram {
+    
+    color: white;
+}
+
+.fa {
+    padding: 13px;
+    font-size: 40px;
+    width: 60px;
+    text-decoration: none;
+    margin: auto;
+}
